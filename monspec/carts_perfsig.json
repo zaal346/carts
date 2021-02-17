@@ -4,15 +4,15 @@
             "timeseriesId" : "com.dynatrace.builtin:service.responsetime",
             "aggregation" : "avg",
             "tags" : "app:carts,environment:dev",
-            "upperLimit" : 800.0,
-            "lowerLimit" : 600.0
+            "upperWarning" : 800,
+            "upperSevere" : 1200
         },
         {
             "timeseriesId" : "com.dynatrace.builtin:service.failurerate",
             "aggregation" : "avg",
             "tags" : "app:carts,environment:dev",
-            "upperLimit" : 5.0,
-            "lowerLimit" : 0.0
+            "upperSevere" : 5.0,
+            "upperWarning" : 0.5
         }
     ]
 }
